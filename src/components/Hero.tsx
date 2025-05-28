@@ -1,3 +1,4 @@
+
 import { ArrowRight, Leaf, Droplets, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -72,7 +73,7 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="flex items-center space-x-2 text-emerald-600">
               <Droplets className="w-5 h-5" />
-              <span className="text-sm font-medium tracking-wider uppercase">Sustainable Energy Solutions</span>
+              <span className="text-sm font-medium tracking-wider uppercase">Comprehensive Renewable Energy Solutions</span>
             </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -81,7 +82,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-gray-600 leading-relaxed max-w-lg">
-              Pioneering the future of renewable energy through innovative bio-CNG production using napier grass feedstock. Clean energy for a sustainable tomorrow.
+              Leading the renewable energy revolution with comprehensive solutions spanning solar power, hydro projects, energy storage, and bio-energy technologies. Partnering with government bodies to create sustainable energy infrastructure for tomorrow.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -90,7 +91,7 @@ const Hero = () => {
                 <ArrowRight className="ml-2 w-4 h-4" />
               </Button>
               <Button variant="outline" size="lg" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-8 py-3 rounded-full transition-all duration-300">
-                Our Impact
+                Our Projects
               </Button>
             </div>
           </div>
@@ -99,7 +100,7 @@ const Hero = () => {
             <div className="relative">
               <img
                 src="/placeholder.svg"
-                alt="Sustainable energy production"
+                alt="Renewable energy infrastructure"
                 className="w-full h-96 object-cover rounded-2xl shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/20 to-transparent rounded-2xl"></div>
@@ -112,7 +113,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900">100% Renewable</p>
-                  <p className="text-sm text-gray-600">Bio-CNG Production</p>
+                  <p className="text-sm text-gray-600">Multi-Technology Portfolio</p>
                 </div>
               </div>
             </div>
